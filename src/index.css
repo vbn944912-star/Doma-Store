@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fbf9f4;
+  --color-gold-100: #f5eedf;
+  --color-gold-200: #ebdcb9;
+  --color-gold-300: #dec38a;
+  --color-gold-400: #cfaa5e;
+  --color-gold-500: #C8A96A; /* Base gold */
+  --color-gold-600: #ad8c4f;
+  --color-gold-700: #8c6e3d;
+  --color-gold-800: #6b522f;
+  --color-gold-900: #503d25;
+  --color-gold-950: #2d2113;
+
+  --color-luxury-black: #0B0B0B;
+  --color-luxury-gray: #F5F5F5;
+  
+  --font-sans: "Montserrat", "Cairo", system-ui, sans-serif;
+  --font-cairo: "Cairo", sans-serif;
+  --font-tajawal: "Tajawal", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+  
+  /* Modern premium scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C8A96A;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0B0B0B;
+  }
+}
+
+/* Custom visual utilities for luxury aesthetics */
+.gold-gradient {
+  background: linear-gradient(135deg, #DFCA9B 0%, #C8A96A 50%, #A2844A 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #DFCA9B 0%, #C8A96A 50%, #A2844A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
