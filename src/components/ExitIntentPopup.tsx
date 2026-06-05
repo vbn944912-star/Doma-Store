@@ -95,8 +95,8 @@ export default function ExitIntentPopup({ language }: ExitIntentPopupProps) {
           
           <p className="text-sm text-neutral-500 font-light mb-8 max-w-md mx-auto leading-relaxed">
             {isRtl
-              ? 'انضم إلى عائلة متجر دوما اليوم واستمتع بخصم فوري بقيمة ١٠٪ على طلبك الأول الفاخر لملابس الأولاد.'
-              : 'Join the Doma Store family today and enjoy an instant 10% discount on your first premium childrenswear order.'}
+              ? 'انضم إلى عائلة متجر دوما اليوم واستمتع بخصم فوري بقيمة ١٠٪ على طلبك الأول الفاخر للتيشرتات والملابس الحصرية.'
+              : 'Join the Doma Store family today and enjoy an instant 10% discount on your first premium menswear order.'}
           </p>
 
           {/* Coupon Code Box */}

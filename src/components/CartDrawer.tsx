@@ -63,8 +63,8 @@ export default function CartDrawer({
     if (cartItems.length === 0) return;
 
     let message = isRtl
-      ? `🛍️ *طلب جديد - متجر دوما*\n\nأود إتمام الطلب التالي لملابس الأطفال المميزة:\n`
-      : `🛍️ *New Order - Doma Store*\n\nI want to complete the following premium kids-fashion order:\n`;
+      ? `🛍️ *طلب جديد - متجر دوما*\n\nأود إتمام الطلب التالي للملابس الرجالية والتيشرتات الراقية:\n`
+      : `🛍️ *New Order - Doma Store*\n\nI want to complete the following premium menswear & t-shirts order:\n`;
 
     cartItems.forEach((item, index) => {
       message += `\n${index + 1}. *${isRtl ? item.product.nameAr : item.product.nameEn}*\n` +
@@ -178,8 +178,8 @@ export default function CartDrawer({
                     </h4>
                     <p className="text-xs text-neutral-400 font-light max-w-[240px] leading-relaxed">
                       {isRtl
-                        ? 'استكشف ملابس الأولاد الراقية والتصاميم المريحة لملء سلة تسوقك.'
-                        : 'Explore premium kids couture to fill up your shopping cart with high comfort.'}
+                        ? 'استكشف تشكيلة التيشرتات والملابس الحصرية الممتازة لملء سلة تسوقك.'
+                        : 'Explore premium tees and contemporary casualwear to fill up your shopping cart.'}
                     </p>
                   </div>
                   <button

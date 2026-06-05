@@ -9,171 +9,171 @@ import { Product, Review } from './types';
 export const PRODUCTS: Product[] = [
   {
     id: '1',
-    nameAr: 'تي شيرت غرافيك مميز باللون الفحمي والذهبي',
-    nameEn: 'Signature Charcoal & Gold Graphic Tee',
+    nameAr: 'تي شيرت غرافيك أوفرسايز باللون الأسود الملكي',
+    nameEn: 'Signature Royal Black Oversized Graphic Tee',
     category: 'shirts',
-    price: 350,
-    originalPrice: 450,
-    sizes: ['2-3Y', '4-5Y', '6-7Y', '8-9Y', '10-11Y'],
+    price: 390,
+    originalPrice: 490,
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'تي شيرت غرافيك فاخر مصنوع من قطن جيرسي المصري طويل التيلة بنسبة 100٪. يتميز بتفاصيل ذهبية دقيقة توفر مظهراً ملكياً مع ضمان الراحة طوال اليوم.',
-    descriptionEn: 'Premium graphic tee crafted from 100% long-staple Egyptian cotton. Features delicate gold detailing that provides a regal touch while keeping your child snug all day long.',
+    descriptionAr: 'تي شيرت غرافيك أوفرسايز شبابي فاخر مصنوع من قطن جيرسي المصري الثقيل 100٪ الممتاز بنعومة فائقة وجودة خياطة عصرية لا تضاهى.',
+    descriptionEn: 'Premium heavy 100% Egyptian cotton graphic oversized tee, offering unmatched streetstyle coolness and extreme luxury softness with dropped-shoulder design.',
     isBestSeller: true,
     isNewArrival: true,
     isOffer: true,
     detailsAr: [
-      'قطن مصري ممتاز 100٪ لحماية بشرة الطفل الحساسة',
-      'طباعة ذهبية ناعمة مقاومة للغسيل والتشقق',
-      'ياقة مطاطية مريحة لسهولة الارتداء والخلع',
-      'صنع بفخر في مصر بأعلى معايير الجودة الفاخرة'
+      'قطن مصري مبروم ممتاز 100٪ منسوج بكثافة عالية لمتانة تدوم طويلاً',
+      'قصة أوفرسايز (Oversized) شبابية عصرية تعبر عن الثقة المطلقة',
+      'طباعة كينج رويال ذهبية وناعمة الملمس مقاومة للغسيل المتكرر ولا تتشقق',
+      'ياقة مضلعة دائرية مدعومة بشكل مزدوج للمحافظة على شكلها المتناسق دائماً'
     ],
     detailsEn: [
-      '100% premium Egyptian cotton safeguarding sensitive kid skin',
-      'Soft metallic gold print, highly durable through multiple washes',
-      'Elastic ribbed collar for easy dress-up convenience',
-      'Proudly made in Egypt with the highest luxury standards'
+      '100% premium double-knitted Egyptian cotton for luxurious weight and wear',
+      'Modern streetwear oversized loose fit with dropped-shoulder style',
+      'Heavy-duty elegant gold foil ink print that remains pristine wash after wash',
+      'Reinforced double-ribbed crew neckline keeping a crisp structure all day'
     ]
   },
   {
     id: '2',
-    nameAr: 'الباقة الكلاسيكية للأولاد الكاجوال',
-    nameEn: 'Classic Casual Boys Set',
-    category: 'sets',
-    price: 850,
-    sizes: ['4-5Y', '6-7Y', '8-9Y', '10-11Y'],
+    nameAr: 'تي شيرت بولو كاجوال كلاسيك باللون الكحلي',
+    nameEn: 'Classic Navy Blue Casual Polo',
+    category: 'shirts',
+    price: 490,
+    sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
     images: [
-      'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'طقم فاخر من قطعتين للأولاد يتميز بقميص بولو ناعم للغاية مع شورت مريح متناسق برباط خصر ذهبي دافئ. مثالي للمناسبات الصيفية والرحلات العائلية الأنيقة.',
-    descriptionEn: 'An curated high-end 2-piece set featuring an ultra-soft polo shirt and matching structured shorts with a classic gold drawcord. Perfect for weekend family outings and chic summer days.',
+    descriptionAr: 'تي شيرت بولو كلاسيكي بأكمام قصيرة للرجال والشباب، مصنوع من قماش قطني بيكيه مسامي فائق النعومة، مثالي للإطلالات اليومية والعملية الأنيقة والذكية.',
+    descriptionEn: 'An curated high-end micro-pique men polo shirt. Beautifully crafted, matching regular details with golden crest accent. Perfect for smart-casual wear.',
     isBestSeller: true,
     detailsAr: [
-      'طقم كاجوال متكامل وعصري بلمسة فاخرة',
-      'قميص بولو قطني منسوج دقيق وشورت متين بخيوط معززة',
-      'خصر مطاطي مرن قابل للتعديل للتناسب مع مقاس الطفل',
-      'تصاميم مستوحاة من خطوط الموضة الأوروبية الحديثة للأطفال'
+      'نسيج قطن بيكيه ناعم ومسامي يطرد العرق ويمنحك انتعاشاً دائماً في الأجواء الحارة',
+      'ياقة محبوكة كلاسيكية مريحة مع حافة أزرار ذهبية رقيقة',
+      'قصة مريحة (Regular Fit) تناسب مختلف البنيات الجسدية بأنوثة ذكورية متوازنة',
+      'تطريز شعار دوما ستور الملكي الفاخر بأرقى خيوط الحرير على الصدر'
     ],
     detailsEn: [
-      'Complete coordinated urban look with dual functional pockets',
-      'Crafted from micro-knit cotton piqué and stretch-blend chino shorts',
-      'Adjustable internal elastic waistband assuring custom ergonomic fit',
-      'High luxury aesthetic inspired by European chic silhouettes'
+      'Breathable micro-knit cotton piqué with premium stretch and airiness',
+      'Classic knit collar and three-button placket with subtle gold metallic detailing',
+      'Standard regular fit guaranteeing comfortable, elegant body contouring',
+      'Distinctive golden crest embroidery detailed at the left chest line'
     ]
   },
   {
     id: '3',
-    nameAr: 'مجموعة الصيف الممتعة من الكتان',
-    nameEn: 'Breezy Linen Summer Outfit Set',
-    category: 'sets',
-    price: 750,
-    originalPrice: 890,
-    sizes: ['2-3Y', '4-5Y', '6-7Y', '8-9Y'],
+    nameAr: 'تي شيرت متبل بلمسة مغسولة (أسيد واش) - أبيض ثلجي',
+    nameEn: 'Snow White Premium Acid-Wash Tee',
+    category: 'shirts',
+    price: 420,
+    originalPrice: 520,
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'مجموعة مصنوعة من مزيج الكتان والقطن الطبيعي الخفيف، تتميز بقميص ناصع البياض بأزرار خشبية راقية وشورت بلون كاكاو دافئ. مريحة وجيدة التهوية لأجواء مصر الحارة.',
-    descriptionEn: 'Fashioned from organic cotton-linen blend, this set comprises a crisp white button-up with tailored wooden buttons and toasted cocoa shorts. Best lightweight comfort in warm climates.',
+    descriptionAr: 'تي شيرت شبابي متميز بتأثير الملمس المغسول (Acid-Wash) المدهش، بقصة مريحة وأكتاف ساقطة تمنحه طابعاً شبابياً مستقلاً. ناعم جداً ومقاوم للانكماش.',
+    descriptionEn: 'Fashioned from organic cotton, this vintage-look acid wash tee features custom drop shoulders, a distressed aesthetic, and extreme luxury comfort.',
     isBestSeller: true,
     isOffer: true,
     detailsAr: [
-      'كتان طبيعي 100% ممتاز ممزوج بالقطن لنعومة لا مثيل لها',
-      'أزرار أصلية فاخرة وخياطة مبرومة فريدة',
-      'شورت أنيق ومثالي للمصايف والشواطئ الفاخرة مثل الساحل الشمالي',
-      'خصر مريح يمنح طفلك الحرية الكاملة في الحركة واللعب'
+      'قطن طبيعي معالج حرارياً بنسبة 100% يمنحك ملمس غسيل الشارع الأصيل',
+      'صبغة غسيل فريدة تختلف تفاصيلها من تي شيرت لآخر لإضفاء هوية مستقلة',
+      'قماش ناعم وخفيف الوزن وذو تهوية كاملة ممتازة لموجات الصيف',
+      'قصة تريند عصرية تلائم الجينز، والبنطلون المتناسق، والملابس الكاجوال في كل الأوقات'
     ],
     detailsEn: [
-      'Breathable flax linen merged with organic soft-brushed cotton',
-      'Rustic real wooden button details and double-reinforced hems',
-      'Incredibly elegant set for premium seaside beach clubs or Sahel resorts',
-      'Ergonomic stretch waistband enabling uninterrupted active play'
+      '100% soft organic cotton subjected to vintage mineral washing for a rich touch',
+      'One-of-a-kind washed pattern details guaranteeing distinct standalone personality',
+      'Superb light weight with complete breathability ideal for summer days and evenings',
+      'Relaxed straight silhouette matching effortlessly with denim or casual shorts'
     ]
   },
   {
     id: '4',
-    nameAr: 'تي شيرت قطني كلاسيكي يومي',
-    nameEn: 'Supreme Daily Cotton Tee',
+    nameAr: 'تي شيرت قطن سليم فيت - أبيض كلاسيكي ناصع',
+    nameEn: 'Supreme Daily Slim-Fit White Tee',
     category: 'shirts',
     price: 350,
-    sizes: ['2-3Y', '4-5Y', '6-7Y', '8-9Y', '10-11Y'],
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'القطعة الأساسية اليومية لكل طفل. مصممة من نسيج قطني كثيف ومقاوم للمط والبهتان، مع ياقة مدعومة للمحافظة على شكلها المتناسق حتى بعد عشرات مرات الغسيل.',
-    descriptionEn: 'The ultimate daily essential. Crafted from double-knit combed yarn that resists stretching and color fading, with a reinforced neckline ensuring a neat lay wash after wash.',
+    descriptionAr: 'التي شيرت الأساسي المريح للشباب والرجال للارتداء اليومي. منسوج من القطن المشطوب المزدوج المطاطي لمقاومة التمدد والبهتان مع ياقة مدعومة متناسقة تحافظ على هيكلها الأنيق.',
+    descriptionEn: 'The ultimate daily essential for men and youth. Crafted from double-knit combed cotton yarn that resists stretching and color fading, with a sleek slim layout.',
     isBestSeller: true,
     detailsAr: [
-      'خامة قطنية فائقة النعومة وتتحمل كثرة الغسيل',
-      'ألوان فاخرة وثابتة لا تبهت مع الاستخدام اليومي',
-      'قماش معالج حرارياً مضاد للوبر والانكماش',
-      'قصة مريحة تمنح الخفة والراحة طوال اليوم'
+      'خامة قطنية حريرية فائقة النعومة ومضادة للحساسية ومريحة للبشرة',
+      'لون أبيض ناصع وثابت لا يتحول للأصفر ومضمون خلال الغسيل المتكرر',
+      'معالج بالكامل حرارياً لمنع ظهور النمش الكشميري والوبر الكربوني',
+      'قصة سليم فيت محكمة تعزز قوامك الرياضي بلمسة عصرية جذابة'
     ],
     detailsEn: [
-      'Hypoallergenic cotton knit optimized for vigorous daily activewear',
-      'Azo-free eco safe dyes retaining rich tones after endless launders',
-      'Eco-enzyme bio-wash pre-shrunk and pill-resistant finish',
-      'Relaxed straight silhouette providing generous freedom of motion'
+      'Hypoallergenic combed cotton optimized for daily wear under sweaters or standalone',
+      'Azo-free pure white dyes retaining deep rich white tones endlessly',
+      'Eco-enzyme bio-wash pre-shrunk finish preventing any micro-pilling',
+      'Tailor-grade slim fit silhouette fitting athletic profiles perfectly'
     ]
   },
   {
     id: '5',
-    nameAr: 'مجموعة تريند الحضرية للأولاد الأنيقين',
-    nameEn: 'Trend Collection Streetwear Set',
-    category: 'sets',
-    price: 950,
-    originalPrice: 1100,
-    sizes: ['4-5Y', '6-7Y', '8-9Y', '10-11Y', '12-13Y'],
+    nameAr: 'تي شيرت شبابي غرافيك ريجولر بطباعة ريترو',
+    nameEn: 'Retro Streetwear Graphic Tee',
+    category: 'shirts',
+    price: 450,
+    originalPrice: 550,
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'طقم رائد ومستوحى من أزياء الشارع العالمية الفاخرة. يجمع بين هودي صيفي خفيف الوزن ونصف أكمام مع جوغر مطاطي متناسق بخطوط ذهبية فخمة تفافية.',
-    descriptionEn: 'A trendsetting streetwear masterpiece. Consists of a short-sleeved lightweight summer hoodie paired with custom joggers sporting detailed gold trim inserts.',
+    descriptionAr: 'تي شيرت غرافيك شبابي مستوحى من خطوط الفن وموسيقى الشارع الكلاسيكية الفاخرة. يجمع بين ثقل النسيج الممتاز والرسومات الراقية على الصدر لإعطاء هيبة وإطلالة متميزة وملفتة.',
+    descriptionEn: 'A retro aesthetic typography masterpiece. Features a medium-heavy 100% cotton base with a screen-printed artistic emblem on the chest for ultimate streetstyle vibe.',
     isNewArrival: true,
     isOffer: true,
     detailsAr: [
-      'إطلالة عصرية تلفت الأنظار وتلائم المناسبات المميزة',
-      'نسيج حراري مسامي خفيف مثالي للفترة الانتقالية بين الفصول',
-      'أربطة ذهبية بلمسات معدنية فاخرة منقوشة',
-      'حواف مضلعة مرنة تدوم طويلاً دون ارتخاء'
+      'تصميم مذهل وملئ بالحيوية يناسب الخروجات الشبابية والأمسيات الصيفية والرحلات',
+      'نسيج ميكرو جيرسي مسامي يمتص الرطوبة بامتياز ويسمح للبشرة بالتنفس',
+      'رسم غرافيك ناعم ممتزج بالخيوط ولا يصدر صوتاً صلباً ومضمون مئة بالمئة ضد التقشر',
+      'حواف مزدوجة مخيطة بمتانة بالغة تضمن عدم ارتخاء القصة مع مرور الشهور'
     ],
     detailsEn: [
-      'Show-stopping urban profile ideal for premium gatherings & events',
-      'Thermo-regulating micro-weave cotton blend suitable year-round',
-      'Gilded tipped drawcords with engraved metallic Doma signature brand',
-      'Elasticized flat-lock cuffs retaining shape indefinitely'
+      'Show-stopping urban profile ideal for college, hangouts, and summer music events',
+      'Thermo-regulating micro-weave cotton blend suitable and comfortable all year round',
+      'Soft-feel water-based screen printing that remains flexible and will never crack',
+      'Double-lock stitch flat hems securing structure longevity and form'
     ]
   },
   {
     id: '6',
-    nameAr: 'طقم الأولاد الحضري ذو الطراز العصري',
-    nameEn: 'Urban Kids Tech-Blend Set',
+    nameAr: 'طقم التي شيرت الأساسي الفاخر (قطعتين - أبيض وأسود)',
+    nameEn: 'Supreme T-Shirt Dual Pack',
     category: 'sets',
-    price: 890,
-    sizes: ['2-3Y', '4-5Y', '6-7Y', '8-9Y', '10-11Y'],
+    price: 690,
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=800&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=800&auto=format&fit=crop'
     ],
-    descriptionAr: 'مزيج رائع من الراحة الفائقة والتصميم المعماري الحديث. طقم متناسق يجمع بين توب ياقة دائرية وشورت ذو قصة مستقيمة وجيوب خفية مخفية بعناية لتخزين القطع الثمينة للأطفال.',
-    descriptionEn: 'A magnificent blend of superior comfort and architectural kids design. Styled with an overhead crew top and straight shorts with invisible zippered pockets for active safe keepings.',
+    descriptionAr: 'احصل على القيمة القصوى مع حزمة قطعتين متميزتين تمنحانك الأساس المثالي: تي شيرت كلاسيكي أسود وآخر أبيض ناصع من أجود أنواع القطن المصري لتنسيق مريح ومثالي مع كافة إطلالاتك.',
+    descriptionEn: 'Get maximum wardrobe essentials for less with our luxury 2-pack consisting of one midnight black and one cloud white premium Egyptian cotton tee. Perfect capsule wear.',
     isBestSeller: true,
     detailsAr: [
-      'جيوب جانبية بسحاب مريح وسلس للألعاب والمنتجات',
-      'حماية مدمجة من أشعة الشمس بفضل القماش المعالج',
-      'شعار دوما ستور الذهبي المطرز بخيوط الحرير على الصدر والخصر',
-      'مقاوم فائق للبقع وسهل التنظيف لراحة الأمهات'
+      'توفير مادي حقيقي مع اقتناء قطعتين هما العمود الفقري لأي إطلالة رجالية ناجحة',
+      'قطن مشطوب 100% مصري ناعم يحافظ على لونه الأسود الداكن والأبيض المشع غسلة بعد غسلة',
+      'قصة متوازنة كلاسيكية (Modern Fit) تمنحك الثقة والراحة وحرية الحركة في صالة الألعاب أو المكتب',
+      'خيوط مدعومة عند الأكتاف والرقبة لمقاومة الاهتراء والشد اليومي'
     ],
     detailsEn: [
-      'Practical utility side zips optimized for active run-and-collect actions',
-      'UPF 50+ fabric shield blocks harmful rays on hot sunny fields',
-      'Subtle metallic weave luxury emblem detailed at the upper pocket line',
-      'Enriched soil-release cloth finish makes laundering spills effortless'
+      'Includes one essential solid midnight black and one pure white crew neck shirts',
+      '100% long-staple combed cotton from Egypt, keeping its tight knit after multiple wash cycles',
+      'Modern versatile silhouette optimizing body movement and layering flexibility',
+      'Shoulder-to-shoulder taped seams for extreme durability under severe daily stress'
     ]
   }
 ];
@@ -184,26 +184,26 @@ export const TESTIMONIALS: Review[] = [
     authorAr: 'أحمد م.',
     authorEn: 'Ahmed M.',
     rating: 5,
-    commentAr: 'خامات قطنية ممتازة تفوق التوقعات بحق! الألوان ذهبية وراقية جداً ولا تتأثر بالغسيل المتكرر. الشراء مريح جداً عبر الواتساب والدعم سريع ومحترم.',
-    commentEn: 'Exceptional Egyptian cotton and luxury quality beyond expectation! Colors and gold embellishments stay immaculate through laundry. Excellent customer service over WhatsApp.',
+    commentAr: 'خامات قطنية ممتازة تفوق التوقعات بحق! مقاسات التيشرتات مظبوطة تماماً والألوان ثابتة ومبتتأثرش بالغسيل والطباعة ناعمة جداً ولا تتقشر. الشراء مريح وسريع جداً عبر الواتساب والدعم محترم.',
+    commentEn: 'Exceptional Egyptian cotton quality beyond expectation! The t-shirt fit is absolute perfection. Colors stay immaculate and prints do not peel even after multiple washes. Excellent WhatsApp service.',
     date: '2026-05-15'
   },
   {
     id: 'rev2',
-    authorAr: 'سارة ح.',
-    authorEn: 'Sarah H.',
+    authorAr: 'يوسف ك.',
+    authorEn: 'Youssef K.',
     rating: 5,
-    commentAr: 'توصيل مذهل وسريع جداً في غضون ٢٤ ساعة في القاهرة والملابس فخمة وخياطتها متقنة كأنها من ماركة عالمية كبرى. سأعاود الشراء بكل تأكيد لشقيقي وأولادي.',
-    commentEn: 'Incredibly lightning-fast delivery within Cairo (delivered in 24h). The tailoring is so premium and precise, matching top-tier European brands. Absolutely buy again.',
+    commentAr: 'اشتريت التي شيرت الأوفرسايز والريترو غرافيك، الخامة ثقيلة ومحترمة والقصة غاية في الأناقة كأنها ماركة براند عالمي فاخر بل وأفضل بكثير! التوصيل سريع جداً في ٢٤ ساعة في القاهرة.',
+    commentEn: 'Incredibly pleased with the oversized graphic tee and retro look. The fabric feels premium and heavy, matching high-end global streetwear labels at a fraction of the cost. Delivered within 24h in Cairo.',
     date: '2026-05-28'
   },
   {
     id: 'rev3',
-    authorAr: 'ندى ك.',
-    authorEn: 'Nada K.',
+    authorAr: 'كريم ح.',
+    authorEn: 'Karim H.',
     rating: 5,
-    commentAr: 'أصبح متجر دوما هو المحل المفضل الأول لملابس أطفالي للأولاد في مصر. يقدم قفزة هائلة في الجودة بسعر عادل جداً مقارنة بالموجود بالأسواق.',
-    commentEn: 'Doma Store is officially my number one shop for my boys in Egypt. They provide a massive leap in fabric comfort at highly justifiable, honest pricing levels.',
+    commentAr: 'أصبح متجر دوما هو المحل المفضل الأول لي لشراء التيشرتات الرجالي والشبابية الفاخرة في مصر. يقدم قفزة هائلة في جودة القطن والراحة بسعر عادل جداً مقارنة بأسعار السوق المبالغ فيها.',
+    commentEn: 'Doma Store is officially my preferred menswear destination for premium t-shirts in Egypt. They provide a massive leap in cotton comfort at highly justifiable, honest pricing levels.',
     date: '2026-06-02'
   }
 ];

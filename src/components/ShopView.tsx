@@ -33,12 +33,12 @@ export default function ShopView({
 
   const isRtl = language === 'ar';
 
-  const ALL_SIZES = ['2-3Y', '4-5Y', '6-7Y', '8-9Y', '10-11Y', '12-13Y'];
+  const ALL_SIZES = ['S', 'M', 'L', 'XL', 'XXL', '3XL'];
 
   const categoryOptions = [
-    { value: 'all', labelAr: 'كل المنتجات الراقية', labelEn: 'All Premium Couture' },
-    { value: 'shirts', labelAr: 'القمصان والتيشرتات', labelEn: 'Premium Shirts & Tees' },
-    { value: 'sets', labelAr: 'الأطقم ومجموعات الأولاد', labelEn: 'Complete Outfits & Sets' },
+    { value: 'all', labelAr: 'كل التيشرتات والملابس الراقية', labelEn: 'All Premium Tees' },
+    { value: 'shirts', labelAr: 'التيشرتات والبولو', labelEn: 'Premium Tees & Polos' },
+    { value: 'sets', labelAr: 'الباقات والعروض التوفيرية', labelEn: 'Value Packs & Sets' },
     { value: 'new_arrivals', labelAr: 'الوافدين الجدد حديثاً', labelEn: 'Fresh New Arrivals' },
     { value: 'offers', labelAr: 'أقوى العروض الحصرية', labelEn: 'Exclusive Special Offers' },
     { value: 'seasonal', labelAr: 'المجموعة الموسمية الخاصة', labelEn: 'Seasonal Collections' },
@@ -94,15 +94,15 @@ export default function ShopView({
         {/* Page title and narrative banner */}
         <div className="text-center mb-12 max-w-2xl mx-auto space-y-3">
           <span className="text-xs font-bold uppercase tracking-widest text-[#C8A96A]">
-            {isRtl ? 'الأناقة تبدأ منذ الصغر' : 'STYLE STARTS YOUNG'}
+            {isRtl ? 'الأناقة والجاذبية للشباب والرجال' : 'ELEGANCE & STYLE FOR MEN'}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-cairo text-neutral-900 tracking-tight leading-tight">
-            {isRtl ? 'صالة ملابس الأولاد الفاخرة' : 'Premium Boys Closet'}
+            {isRtl ? 'صالة التيشرتات والملابس الفاخرة' : 'Premium Men & Youth Apparel'}
           </h2>
           <p className="text-sm text-neutral-500 font-light leading-relaxed">
             {isRtl
-              ? 'تصفح مجموعتنا الكاملة من قطع الملابس المنسقة خصيصاً لأميرك الصغير. نهتم بكل غرزة، وقماش، وتطريز لراحة قصوى.'
-              : 'Browse our signature curated clothing elements tailored elegantly for your little champ. We obsess over every single thread and stitch.'}
+              ? 'تصفح مجموعتنا الكاملة من التيشرتات والبولو المنسقة خصيصاً بمظهر عصري جذاب. قطن مصري ممتاز بنعومة بالغة.'
+              : 'Browse our signature curated tees and casual polos tailored elegantly for your absolute confidence. Premium Egyptian cotton with ultra-soft vibe.'}
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function ShopView({
 
                 {/* Sizing Filter */}
                 <div className="space-y-3">
-                  <h4 className="text-sm font-bold font-cairo text-neutral-800">{isRtl ? 'مقاس الأطفال المطلوب' : 'Target Age/Size'}</h4>
+                  <h4 className="text-sm font-bold font-cairo text-neutral-800">{isRtl ? 'المقاس المطلوب' : 'Target Size'}</h4>
                   <div className="flex flex-wrap gap-2">
                     <button
                       onClick={() => setSelectedSize('all')}
@@ -389,7 +389,7 @@ export default function ShopView({
                 <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between">
                   <div>
                     <span className="text-[10px] uppercase font-bold tracking-widest text-neutral-400 mb-1.5 block">
-                      {isRtl ? (p.category === 'shirts' ? 'قميص فاخر' : 'طقم أولاد متكامل') : (p.category === 'shirts' ? 'Signature Shirt' : 'Complete Boys Set')}
+                      {isRtl ? (p.category === 'shirts' ? 'تي شيرت راقٍ' : 'باقة قطعتين توفيرية') : (p.category === 'shirts' ? 'Signature Tee' : 'Premium Double Pack')}
                     </span>
                     <h3 
                       onClick={() => onProductClick(p)}

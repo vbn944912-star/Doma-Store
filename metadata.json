@@ -1,6 +1,6 @@
 {
   "name": "Doma Store",
-  "description": "Premium luxury kids' fashion concept store tailored for modern families in Egypt, offering high-quality styles, comfort, and nationwide delivery.",
+  "description": "Premium luxury men fashion and youth t-shirts store in Egypt offering high-quality styles, comfort, and nationwide delivery.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

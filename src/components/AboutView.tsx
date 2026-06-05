@@ -25,7 +25,7 @@ export default function AboutView({ language }: AboutViewProps) {
             {isRtl ? 'قصة نجاح مصرية أصيلة' : 'AUTHENTIC EGYPTIAN LEGACY'}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-cairo text-neutral-900 tracking-tight">
-            {isRtl ? 'حول متجر دوما للأطفال' : 'About Doma Premium'}
+            {isRtl ? 'حول متجر دوما للملابس الرجالية والشبابية' : 'About Doma Menswear'}
           </h2>
           <div className="h-1 w-20 gold-gradient mx-auto my-4 rounded-full" />
         </div>
@@ -34,19 +34,19 @@ export default function AboutView({ language }: AboutViewProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-white rounded-3xl p-6 sm:p-10 border border-neutral-100 shadow-xs">
           <div className="space-y-6">
             <h3 className="text-xl sm:text-2xl font-bold font-cairo text-neutral-900 leading-snug">
-              {isRtl ? 'أناقة الأطفال تبدأ من سن مبكرة' : 'Elegance Starts From Young Age'}
+              {isRtl ? 'الأناقة والثقة تبدأ من طلتك' : 'Elegance & Confidence in Every Thread'}
             </h3>
             
             <p className="text-sm text-neutral-600 font-light leading-relaxed">
               {isRtl
-                ? 'متجر دوما هو علامة تجارية مصرية رائدة مكرسة حصرياً لتقديم ملابس الأولاد الأنيقة والمريحة وعالية الجودة للأسر الحديثة في مصر. تأسس المتجر لملء فجوة حقيقية في سوق ملابس الأطفال المصري: الحاجة لملابس تمزج الفخامة المعاصرة مع المتانة الحقيقية والراحة المطلقة للتنقل واللعب.'
-                : 'Doma Store is a leading Egyptian children fashion atelier dedicated entirely to presenting stylish, comfortable, and top-tier outfits for boys. Founded to fill a vital void: the necessity for childrenswear pairing contemporary premium luxury styling with real, everyday durability.'}
+                ? 'متجر دوما هو علامة تجارية مصرية رائدة مكرسة حصرياً لتقديم الملابس الرجالية والتشرتات الشبابية الكاجوال الأنيقة والمريحة وعالية الجودة في مصر. تأسس المتجر لملء فجوة حقيقية في السوق المصري: الحاجة لملابس تمزج الفخامة المعاصرة وتصاميم ستريت وير الراقية مع الخامات الطبيعية والراحة المطلقة طوال اليوم.'
+                : 'Doma Store is a leading Egyptian menswear fashion hub dedicated entirely to presenting stylish, comfortable, and top-tier t-shirts and casual outfits for gentlemen and youth. Founded to fill a vital void: the necessity for apparel pairing contemporary premium streetwear styling with real durability and supreme daily posture.'}
             </p>
 
             <p className="text-sm text-neutral-600 font-light leading-relaxed">
               {isRtl
-                ? 'يتم اختيار كل خيط وبكرة قماش وفحصها يدوياً مع الاهتمام بأدق التفاصيل والرسومات والخياطة لضمان مظهر ملكي أنيق يشعر فيه طفلكم بالثقة اللامتناهية والسعادة كل يوم.'
-                : 'Every single cotton fiber, button, and color theme is handpicked and monitored meticulously. This ensures your little prince enjoys a stately, pristine visual identity wrapped around utmost flexible comfort.'}
+                ? 'يتم اختيار كل خيط قطن مصري ممتاز بدقة فائقة وفحصه يدوياً لضمان مظهر جذاب يليق بثقتك اللامتناهية وسعادتك اليومية.'
+                : 'Every single premium long-staple cotton fiber, exquisite print, and color palette is handpicked and monitored meticulously. This ensures you enjoy a stately, pristine visual identity wrapped around utmost flexible comfort.'}
             </p>
           </div>
 
@@ -82,8 +82,8 @@ export default function AboutView({ language }: AboutViewProps) {
             </h4>
             <p className="text-xs sm:text-sm text-neutral-600 font-light leading-relaxed">
               {isRtl
-                ? 'أن نصبح الوجهة الأولى والمفضلة لعائلات النخبة والطبقة المتوسطة والعليا في مصر لملابس الأولاد، من خلال إرساء معايير جديدة تماماً تدمج التصنيع المصري فائق الجودة بالخطوط العالمية الحديثة للموضة.'
-                : 'To establish ourselves as the single most favorite fashion playground for modern Egyptian families, setting unprecedented high benchmarks that marry exquisite local fabrics with international luxury aesthetics.'}
+                ? 'أن نصبح الوجهة الأولى والمفضلة للشباب والرجال في مصر الباحثين عن التميز والراحة، من خلال إرساء معايير جديدة تماماً تدمج التصنيع الميكروي المصري فائق الجودة بالخطوط العالمية الحديثة للموضة الحضرية.'
+                : 'To establish ourselves as the single most favorite fashion playground for modern Egyptian youth, setting unprecedented high benchmarks that marry exquisite local fabrics with international luxury aesthetics.'}
             </p>
           </div>
 
@@ -96,8 +96,8 @@ export default function AboutView({ language }: AboutViewProps) {
             </h4>
             <p className="text-xs sm:text-sm text-neutral-600 font-light leading-relaxed">
               {isRtl
-                ? 'تمكين أولادكم الصغار من التحرك بثقة واعتزاز عبر توفير قطع ملابس فائقة النعومة ومضادة الحساسية، مصنوعة بأيدٍ وخيوط مصرية حريصة واهتمام خاص بكل أسرة ترغب بالأفضل لأبنائها.'
-                : 'To empower active young souls to enjoy childrenhood securely, utilizing premium-brushed hypoallergenic fibers. Celebrating fine local craftsmanship and personalized support to parents.'}
+                ? 'تمكين الشباب والرجال من الظهور بأبهى إطلالة وبثقة كاملة عبر توفير ملابس قطنية فائقة النعومة ومضادة للتعرق، مصنوعة بأيدي مصانع مصرية حريصة واهتمام خاص بكل عميل يرغب بالأفضل.'
+                : 'To empower active masculine souls to express themselves securely, utilizing premium-brushed moisture-wicking cotton fibers. Celebrating fine local craftsmanship and personalized support to customers.'}
             </p>
           </div>
 
@@ -115,9 +115,9 @@ export default function AboutView({ language }: AboutViewProps) {
               <div className="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center text-[#C8A96A] mx-auto">
                 <Award className="w-5 h-5" />
               </div>
-              <h5 className="font-cairo font-bold text-xs sm:text-sm text-neutral-900">{isRtl ? 'جودة مصرية ممتازة' : 'Premium Cotton'}</h5>
+              <h5 className="font-cairo font-bold text-xs sm:text-sm text-neutral-900">{isRtl ? 'جودة قطنية فائقة' : 'Premium Cotton'}</h5>
               <p className="text-[11px] text-neutral-400 font-light leading-relaxed">
-                {isRtl ? 'أفضل قطن جيرسي مصري منتقى لحماية بشرتهم الناعمة.' : 'Finest long-staple Egyptian yarns ensuring unmatched softness.'}
+                {isRtl ? 'أفضل قطن جيرسي مصري منتقى لحماية وراحة لا تضاهى في صيف مصر الحار.' : 'Finest long-staple Egyptian yarns ensuring unmatched softness and cool touch.'}
               </p>
             </div>
 
@@ -125,9 +125,9 @@ export default function AboutView({ language }: AboutViewProps) {
               <div className="w-10 h-10 bg-amber-50 rounded-xl flex items-center justify-center text-[#C8A96A] mx-auto">
                 <Sparkles className="w-5 h-5" />
               </div>
-              <h5 className="font-cairo font-bold text-xs sm:text-sm text-neutral-900">{isRtl ? 'تصاميم حديثة' : 'Avant-Garde Ideas'}</h5>
+              <h5 className="font-cairo font-bold text-xs sm:text-sm text-neutral-900">{isRtl ? 'تصاميم حضرية عصرية' : 'Urban Styles'}</h5>
               <p className="text-[11px] text-neutral-400 font-light leading-relaxed">
-                {isRtl ? 'خطوط تتماشى مع صيحات الموضة الأوروبية والعالمية.' : 'Clean tailoring inspired by global kids haute couture trends.'}
+                {isRtl ? 'خطوط تتماشى مع صيحات موضة الشارع وجماليات ستريت وير الأنيقة.' : 'Clean tailoring inspired by global urban streetwear and casual outfit trends.'}
               </p>
             </div>
 

@@ -169,7 +169,7 @@ export default function ProductDetail({
             <div>
               {/* Category */}
               <span className="text-xs uppercase tracking-widest text-[#C8A96A] font-semibold mb-2 block">
-                {isRtl ? 'أزياء الأطفال الراقية' : 'Premium Kids Couture'}
+                {isRtl ? 'ملابس وتيشرتات رجالي شبابية' : 'Premium Menswear & Tees'}
               </span>
 
               {/* Title */}
@@ -204,7 +204,7 @@ export default function ProductDetail({
               {/* Sizes Selector */}
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-3 text-sm">
-                  <span className="font-semibold text-neutral-800">{isRtl ? 'مقاس الأطفال' : 'Kids Size'}</span>
+                  <span className="font-semibold text-neutral-800">{isRtl ? 'المقاس المتاح' : 'Available Size'}</span>
                   <button
                     id="btn-size-guide"
                     onClick={() => setShowSizeGuide(true)}
@@ -433,52 +433,47 @@ export default function ProductDetail({
               ✕
             </button>
             <h3 className="text-lg font-bold font-cairo mb-4 text-neutral-900">
-              {isRtl ? 'دليل مقاسات ملابس متجر دوما' : 'Doma Store Clothing Size Guide'}
+              {isRtl ? 'دليل مقاسات ملابس متجر دوما للرجال والشباب' : 'Doma Menswear Size Guide'}
             </h3>
             <p className="text-xs text-neutral-400 mb-4 leading-relaxed">
               {isRtl
-                ? 'مقاساتنا مصممة لتناسب الأطفال بمرونة ومطابقة تماماً للمعايير الدولية للراحة والتحرك.'
-                : 'All our sizes are designed to fit children comfortably, matching high international standards.'}
+                ? 'مقاساتنا مصممة بدقة لتلائم جسدك بشكل مريح ومطابقة للمعايير الدولية للراحة والتحرك الرياضي أو الكاجوال.'
+                : 'All our sizes are designed to fit your body comfortably, matching standard menswear measurements.'}
             </p>
 
             <table className="w-full text-left text-xs sm:text-sm border-collapse">
               <thead>
                 <tr className="border-b border-neutral-200 bg-neutral-100">
                   <th className="p-2 py-3 font-semibold text-neutral-700 text-center">{isRtl ? 'المقاس' : 'Size'}</th>
-                  <th className="p-2 py-3 font-semibold text-neutral-700 text-center">{isRtl ? 'العمر المناسب' : 'Kid Age'}</th>
-                  <th className="p-2 py-3 font-semibold text-neutral-700 text-center">{isRtl ? 'الطول (سم)' : 'Height (cm)'}</th>
+                  <th className="p-2 py-3 font-semibold text-neutral-700 text-center">{isRtl ? 'الصدر (سم)' : 'Chest (cm)'}</th>
+                  <th className="p-2 py-3 font-semibold text-neutral-700 text-center">{isRtl ? 'الطول (سم)' : 'Length (cm)'}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-neutral-100 text-center">
                 <tr>
-                  <td className="p-2 py-3 font-bold">2-3Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '٢-٣ سنوات' : '2-3 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">92 - 98</td>
+                  <td className="p-2 py-3 font-bold">S</td>
+                  <td className="p-2 py-3 text-neutral-500">96 - 100</td>
+                  <td className="p-2 py-3 text-neutral-500">68 - 70</td>
                 </tr>
                 <tr>
-                  <td className="p-2 py-3 font-bold">4-5Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '٤-٥ سنوات' : '4-5 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">104 - 110</td>
+                  <td className="p-2 py-3 font-bold">M</td>
+                  <td className="p-2 py-3 text-neutral-500">100 - 104</td>
+                  <td className="p-2 py-3 text-neutral-500">70 - 72</td>
                 </tr>
                 <tr>
-                  <td className="p-2 py-3 font-bold">6-7Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '٦-٧ سنوات' : '6-7 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">116 - 122</td>
+                  <td className="p-2 py-3 font-bold">L</td>
+                  <td className="p-2 py-3 text-neutral-500">104 - 108</td>
+                  <td className="p-2 py-3 text-neutral-500">72 - 74</td>
                 </tr>
                 <tr>
-                  <td className="p-2 py-3 font-bold">8-9Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '٨-٩ سنوات' : '8-9 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">128 - 134</td>
+                  <td className="p-2 py-3 font-bold">XL</td>
+                  <td className="p-2 py-3 text-neutral-500">108 - 114</td>
+                  <td className="p-2 py-3 text-neutral-500">74 - 76</td>
                 </tr>
                 <tr>
-                  <td className="p-2 py-3 font-bold">10-11Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '١٠-١١ سنة' : '10-11 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">140 - 146</td>
-                </tr>
-                <tr>
-                  <td className="p-2 py-3 font-bold">12-13Y</td>
-                  <td className="p-2 py-3 text-neutral-500">{isRtl ? '١٢-١٣ سنة' : '12-13 Years'}</td>
-                  <td className="p-2 py-3 text-neutral-500">152 - 158</td>
+                  <td className="p-2 py-3 font-bold">XXL</td>
+                  <td className="p-2 py-3 text-neutral-500">114 - 120</td>
+                  <td className="p-2 py-3 text-neutral-500">76 - 78</td>
                 </tr>
               </tbody>
             </table>

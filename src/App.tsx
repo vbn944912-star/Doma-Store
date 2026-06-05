@@ -150,28 +150,28 @@ export default function App() {
   // Hero Banners Data
   const HERO_SLIDES = [
     {
-      img: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=80&w=1400&auto=format&fit=crop',
-      titleAr: 'أناقة الأطفال تبدأ من هنا',
-      titleEn: 'Where Premium Kids Style Begins',
-      descAr: 'اكتشف أحدث مجموعات ملابس الأولاد المصممة بعناية لتجمع بين الراحة والأناقة في كل مناسبة بمصر.',
-      descEn: 'Discover luxury boys collections crafted meticulously to combine supreme comfort with high daily confidence.',
+      img: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=1400&auto=format&fit=crop',
+      titleAr: 'أناقة الرجال والشباب تبدأ من هنا',
+      titleEn: 'Where Premium Men Style Begins',
+      descAr: 'اكتشف أحدث مجموعات التيشرتات والبولو الرجالية والشبابية المصممة بعناية لتجمع بين الراحة والأناقة الكاجوال الفاخرة.',
+      descEn: 'Discover luxury t-shirts and daily polos crafted meticulously to combine supreme comfort with high urban style confidence.',
     },
     {
-      img: 'https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=1400&auto=format&fit=crop',
-      titleAr: 'أناقة تبدأ من سن مبكرة',
-      titleEn: 'A Sophisticated Touch For Little Champs',
-      descAr: 'تجمع ملابس الأولاد العصرية بين الخامات القطنية الممتازة والتصميم الفاخر المريح للأم والطفل.',
-      descEn: 'Premium clothing designed for active boys, delivering natural Egyptian cotton goodness everywhere in Egypt.',
+      img: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=1400&auto=format&fit=crop',
+      titleAr: 'أناقة فخمة وأسلوب حضري مستقل',
+      titleEn: 'A Sophisticated Touch For Modern Gentlemen',
+      descAr: 'تجمع ملابس دوما العصرية بين خامات القطن المصري طويل التيلة الممتاز والقصات المريحة والرسومات الجذابة.',
+      descEn: 'Premium clothing designed for active urban styles, delivering natural long-staple Egyptian cotton goodness to your doorstep.',
     }
   ];
 
   const categories = [
-    { id: 'shirts', nameAr: 'قمصان كاجوال', nameEn: 'Casual Shirts', descAr: 'تيشرتات وقمصان قطنية', descEn: 'Tees & Linen Button-ups', count: 2, bg: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=400' },
-    { id: 'sets', nameAr: 'مجموعات وأطقم الأولاد', nameEn: 'Boys Outfits', descAr: 'أطقم متناسقة وباقات العيد', descEn: 'Premium Summer & Play Sets', count: 4, bg: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=400' },
-    { id: 'new_arrivals', nameAr: 'الوافدين الجدد', nameEn: 'New Arrivals', descAr: 'مجموعات أسبوعية جديدة', descEn: 'Fresh Weekly Curations', count: 'Hot', bg: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=400' },
-    { id: 'offers', nameAr: 'عروض خاصة محدودة', nameEn: 'Special Offers', descAr: 'توفير وباقات منسقة', descEn: 'Curated Budget Combos', count: 'Sale', bg: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=400' },
-    { id: 'seasonal', nameAr: 'مجموعة موسمية', nameEn: 'Seasonal Outfits', descAr: 'أزياء لكل موسم وحدث', descEn: 'Perfect Holiday Apparel', count: 'New', bg: 'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?q=80&w=400' },
-    { id: 'best_sellers', nameAr: 'المنتجات الأكثر مبيعاً', nameEn: 'Best Sellers', descAr: 'المفضل لدى الأمهات بمصر', descEn: 'Mothers Absolute Favorite', count: 'Top', bg: 'https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=400' },
+    { id: 'shirts', nameAr: 'تيشرتات وبولو', nameEn: 'Tee Shirts & Polos', descAr: 'تيشرتات قطنية وبولو كاجوال', descEn: 'Graphic Tees & Micro-pique Polos', count: 5, bg: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=400' },
+    { id: 'sets', nameAr: 'باقات قطعتين توفيرية', nameEn: 'Value Packs & Sets', descAr: 'باقات تمنح خيارات أسبوعية ممتازة', descEn: 'Doma Signature Double Packs', count: 1, bg: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=400' },
+    { id: 'new_arrivals', nameAr: 'الوافدون الجدد', nameEn: 'New Arrivals', descAr: 'تصاميم شبابية جديدة أسبوعياً', descEn: 'Fresh Weekly Streetwear Drops', count: 'Hot', bg: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=400' },
+    { id: 'offers', nameAr: 'عروض خاصة محدودة', nameEn: 'Special Offers', descAr: 'توفير وتخفيض على باقات متعددة', descEn: 'Curated Budget Combos & Duos', count: 'Sale', bg: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=400' },
+    { id: 'seasonal', nameAr: 'مجموعة موسمية', nameEn: 'Seasonal Outfits', descAr: 'أزياء لكل الفصول ومناسبات الأمسية', descEn: 'Perfect Outdoor Essentials', count: 'New', bg: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=400' },
+    { id: 'best_sellers', nameAr: 'المنتجات الأكثر مبيعاً', nameEn: 'Best Sellers', descAr: 'التيشرتات الأكثر طلباً بمصر', descEn: 'Gentlemens Absolute Favorite', count: 'Top', bg: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=400' },
   ];
 
   const totalCartItemsCount = cart.reduce((acc, item) => acc + item.quantity, 0);
@@ -179,8 +179,8 @@ export default function App() {
   // WhatsApp Static Footer Click
   const handleDirectWhatsAppClick = () => {
     const text = isRtl
-      ? 'مرحباً متجر دوما، أود الاستفسار عن المقاسات المتوفرة وأحدث عروض ملابس الأطفال للأولاد.'
-      : 'Hello Doma Store, I would like to inquire about kids sizes and current hot promotions on your boys collections.';
+      ? 'مرحباً متجر دوما، أود الاستفسار عن المقاسات المتوفرة وأحدث عروض تيشرتات وبولو الشباب والرجال لمتجركم.'
+      : 'Hello Doma Store, I would like to inquire about men/youth sizes and current hot promotions on your t-shirt collections.';
     window.location.href = `https://wa.me/201144118289?text=${encodeURIComponent(text)}`;
   };
 
@@ -244,7 +244,7 @@ export default function App() {
                 {isRtl ? 'متجر دوما' : 'Doma Store'}
               </h1>
               <span className="text-[9px] text-[#C8A96A] font-bold tracking-widest block leading-none mt-1">
-                {isRtl ? 'أزياء الأطفال الفاخرة' : 'PREMIUM KIDS COUTURE'}
+                {isRtl ? 'ملابس وتيشرتات رجالي شبابية' : 'PREMIUM MENSWEAR & TEES'}
               </span>
             </div>
           </div>
@@ -394,7 +394,7 @@ export default function App() {
                   >
                     <Sparkles className="w-3.5 h-3.5 animate-pulse" />
                     <span>
-                      {isRtl ? 'الأناقة تبدأ من سن مبكرة' : 'Boys couture designed for active hearts'}
+                      {isRtl ? 'الأناقة والثقة تبدأ من طلتك' : 'Menswear designed for ultimate confidence'}
                     </span>
                   </motion.span>
 
@@ -476,10 +476,10 @@ export default function App() {
             <section id="featured-categories-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center space-y-2 mb-10">
                 <span className="text-xs font-bold uppercase tracking-widest text-[#C8A96A]">
-                  {isRtl ? 'التصنيفات المميزة للأولاد' : 'LUXURY CLOTHING DEPARTMENTS'}
+                  {isRtl ? 'التصنيفات الرجالية المميزة' : 'LUXURY CLOTHING DEPARTMENTS'}
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold font-cairo text-neutral-900 leading-snug">
-                  {isRtl ? 'تسوق فئات متجر دوما الممتازة' : 'Shop Curated Excellence'}
+                  {isRtl ? 'تسوق فئات تيشرتات دوما الفاخرة' : 'Shop Curated Excellence'}
                 </h3>
                 <div className="h-1 w-12 bg-neutral-300 mx-auto rounded-full mt-3" />
               </div>
@@ -525,7 +525,7 @@ export default function App() {
                     {isRtl ? 'سر التفوق والفخامة' : 'UNCOMPROMISING PILLARS'}
                   </span>
                   <h3 className="text-2xl sm:text-3xl font-bold font-cairo leading-snug">
-                    {isRtl ? 'لماذا تختار ملابس متجر دوما؟' : 'Why Egyptian Families Prefer Doma'}
+                    {isRtl ? 'لماذا تختار ملابس متجر دوما الرجالية؟' : 'Why Gentlemen Prefer Doma Store'}
                   </h3>
                   <div className="h-0.5 w-12 bg-amber-500 mx-auto rounded-full mt-3" />
                 </div>
@@ -539,7 +539,7 @@ export default function App() {
                     </div>
                     <h4 className="font-cairo font-bold text-xs sm:text-sm">{isRtl ? 'جودة ممتازة مسؤولة' : 'Premium Quality'}</h4>
                     <p className="text-[11px] text-neutral-400 leading-relaxed font-light">
-                      {isRtl ? 'أقمشة مصرية طويلة التيلة منتقاة بعناية لراحة فائقة في الصيف.' : 'Finest handpicked cotton ensuring secure micro-breathability on child skin.'}
+                      {isRtl ? 'أقمشة مصرية طويلة التيلة منتقاة بعناية لراحة فائقة وتجربة انتعاش صيفية دائم.' : 'Finest handpicked cotton ensuring secure micro-breathability and soft streetwear experience.'}
                     </p>
                   </div>
 
@@ -550,7 +550,7 @@ export default function App() {
                     </div>
                     <h4 className="font-cairo font-bold text-xs sm:text-sm">{isRtl ? 'تصاميم حديثة ومميزة' : 'Modern Designs'}</h4>
                     <p className="text-[11px] text-neutral-400 leading-relaxed font-light">
-                      {isRtl ? 'أنماط ملابس تواكب صيحات الموضة العالمية تمنح طفلك الثقة والجمال.' : 'Sleek urban styles keeping your princes ahead of conventional outlines.'}
+                      {isRtl ? 'أنماط فريدة تواكب صيحات الموضة العالمية الحالية تمنحك الثقة والجمال وجاذبية وامتلاك الهيبة.' : 'Sleek urban styles keeping you ahead of conventional outfit outlines.'}
                     </p>
                   </div>
 
@@ -596,7 +596,7 @@ export default function App() {
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-10 border-b border-neutral-100 pb-5">
                 <div className="space-y-1">
                   <span className="text-xs font-bold uppercase tracking-widest text-[#C8A96A] block">
-                    {isRtl ? 'أقوى الموديلات مبيعاً وتقييماً' : 'TRUSTED BY THOUSANDS OF MOTHERS'}
+                    {isRtl ? 'أقوى الموديلات مبيعاً وتقييماً' : 'TRUSTED BY THOUSANDS OF GENTLEMEN'}
                   </span>
                   <h3 className="text-2xl sm:text-3xl font-extrabold font-cairo text-neutral-900">
                     {isRtl ? 'المنتجات الأكثر مبيعاً ورواجاً' : 'Our Best Sellers Collection'}
@@ -659,7 +659,7 @@ export default function App() {
                           {p.price} <span className="text-[10px] font-medium">{isRtl ? 'ج.م' : 'EGP'}</span>
                         </span>
                         <button
-                          onClick={() => handleAddToCart(p, p.sizes[0] || '4-5Y')}
+                          onClick={() => handleAddToCart(p, p.sizes[0] || 'M')}
                           className="text-[10px] font-bold text-[#C8A96A] hover:text-neutral-900 flex items-center gap-1 cursor-pointer"
                         >
                           <span>{isRtl ? 'إضافة سريعة' : 'Quick Add'}</span>
@@ -747,13 +747,13 @@ export default function App() {
                 </span>
 
                 <h3 className="text-2xl sm:text-3xl font-extrabold font-cairo text-neutral-900 leading-snug max-w-lg mx-auto">
-                  {isRtl ? 'عن متجر دوما - أزياء ممتازة للأطفال' : 'About Doma Store Kids Clothing'}
+                  {isRtl ? 'عن متجر دوما - ملابس وتيشرتات رجالية فاخرة' : 'About Doma Store Menswear'}
                 </h3>
 
                 <p className="text-sm text-neutral-600 font-light leading-relaxed max-w-2xl mx-auto">
                   {isRtl
-                    ? 'متجر دوما هو علامة تجارية مصرية للأزياء مكرسة لتقديم ملابس الأولاد الأنيقة والمريحة وعالية الجودة للعائلات في جميع أنحاء مصر. يتم اختيار كل قطعة مع الاهتمام المطلق بجودة الخامات والكتان الطبيعي والقطن المريح المتنفس، لضمان مظهر ملكي أنيق وصغير يبدو فيه الأولاد واثقين ويشعرون بالحرية التامة للحركة والتمتع بطفولتهم كل يوم.'
-                    : 'Doma Store is an authentic kids brand crafted to deliver absolute aesthetic confidence and lightweight comfort for boys across Egypt. Every clothing element represents unmatched values of breathability and high fiber resilience, so children look incredible and play freely.'}
+                    ? 'متجر دوما هو علامة تجارية مصرية للأزياء مكرسة لتقديم الملابس الرجالية والتشرتات الشبابية الأنيقة والمريحة وعالية الجودة للعملاء في جميع أنحاء مصر. يتم اختيار كل قطعة مع الاهتمام المطلق بجودة الخامات والقطن المصري المريح المتنفس، لضمان مظهر جذاب وأنيق يبدو فيه عمراؤنا واثقين ويشعرون بالحرية التامة والتميز كل يوم.'
+                    : 'Doma Store is an authentic menswear brand crafted to deliver absolute aesthetic confidence and lightweight comfort for youth across Egypt. Every clothing element represents unmatched values of breathability and high fiber resilience, so you look incredible.'}
                 </p>
 
                 <button
@@ -769,7 +769,7 @@ export default function App() {
             <section id="customer-reviews-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
               <div className="text-center space-y-2">
                 <span className="text-xs font-bold uppercase tracking-widest text-[#C8A96A]">
-                  {isRtl ? 'آراء وريد لعملاء متجر دوما' : 'REVIEWS BY CARING MOMS & DADS'}
+                  {isRtl ? 'آراء وريد لعملاء متجر دوما' : 'REVIEWS BY CARING GENTLEMEN & CUSTOMERS'}
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold font-cairo text-neutral-900 leading-snug">
                   {isRtl ? 'شهادات فخورة نعتز بها' : 'Customer Testimonials'}
@@ -841,17 +841,17 @@ export default function App() {
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold font-cairo text-neutral-900 tracking-tight flex items-center justify-center gap-2">
                   <Instagram className="w-6 h-6 text-[#C8A96A]" />
-                  <span>{isRtl ? 'تابعونا عبر إنستغرام للأطفال' : 'Follow @domastore2025'}</span>
+                  <span>{isRtl ? 'تابعوا جديد الموضة والأناقة الرجالية' : 'Follow @domastore2025'}</span>
                 </h3>
               </div>
 
               {/* Instagram lifestyle grid mockup */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
                 {[
-                  { img: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=80&w=400', label: 'Couture 1' },
-                  { img: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=400', label: 'Play Sets' },
-                  { img: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=400', label: 'Daily Cotton' },
-                  { img: 'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?q=80&w=400', label: 'Seaside Wear' },
+                  { img: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=400', label: 'Black Tee' },
+                  { img: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=400', label: 'White Tee' },
+                  { img: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=400', label: 'Polo Shirt' },
+                  { img: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=400', label: 'Streetwear' },
                 ].map((item, i) => (
                   <div
                     key={i}
@@ -882,7 +882,7 @@ export default function App() {
                   <p className="text-xs sm:text-sm text-neutral-600 font-light max-w-md mx-auto leading-relaxed">
                     {isRtl
                       ? 'لا داعي للقلق حول خطوات الدفع الإلكتروني المعقدة! تواصل معنا بسهولة لإتمام طلباتك الفاخرة أو الاستفسار عن الأحجام والعروض.'
-                      : 'No complex registration required. Chat or send products screenshots now to confirm your boys measurements.'}
+                      : 'No complex registration required. Chat or send product screenshots now to secure your perfect size.'}
                   </p>
                 </div>
 
@@ -1011,8 +1011,8 @@ export default function App() {
               </div>
               <p className="text-[11px] sm:text-xs text-neutral-400 leading-relaxed font-light">
                 {isRtl
-                  ? 'العلامة التجارية المصرية الرائدة للأزياء الفاخرة والملابس المريحة للأولاد الصغار في جميع أنحاء مصر.'
-                  : 'Egyptian kids fashion concept brand leading luxury & pure cotton apparel to stylish Egyptian families.'}
+                  ? 'العلامة التجارية المصرية الرائدة للأزياء الفاخرة والملابس الكاجوال الراقية للشباب والرجال في جميع أنحاء مصر.'
+                  : 'Egyptian menswear concept brand leading luxury & pure cotton apparel to stylish Egyptian gentlemen.'}
               </p>
               <div className="flex items-center gap-3 pt-2">
                 <a href="https://instagram.com/domastore2025" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/5 hover:bg-[#C8A96A] hover:text-black text-neutral-400 flex items-center justify-center transition-colors">
@@ -1074,8 +1074,8 @@ export default function App() {
               </h4>
               <p className="text-[11px] sm:text-xs text-neutral-400 leading-relaxed font-light">
                 {isRtl
-                  ? 'دعم واتساب وتلقي الاستفسارات متاح ٢٤ ساعة طوال أيام الأسبوع لخدمتكم وضمان القياسات المتوازنة لأولادكم.'
-                  : 'WhatsApp concierge and sizes measurements feedback open 24/7. Deliveries dispatched daily to all governorates.'}
+                  ? 'دعم واتساب وتلقي الاستفسارات متاح ٢٤ ساعة طوال أيام الأسبوع لخدمتكم وضمان المقاس الأنسب والأريح لكم.'
+                  : 'WhatsApp concierge and size feedback open 24/7. Deliveries dispatched daily to all governorates.'}
               </p>
               <div className="pt-2">
                 <span className="text-[10px] text-[#C8A96A] font-bold block">

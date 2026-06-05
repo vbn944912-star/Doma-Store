@@ -56,7 +56,7 @@ export default function OffersView({
   // Direct WhatsApp support custom package
   const handleOrderSpecialPackage = (bundleName: string, price: string) => {
     const text = isRtl
-      ? `مرحباً متجر دوما! أود الاستفسار وطلب العرض الخاص لملابس الأطفال:\n- العرض: ${bundleName}\n- السعر: ${price}`
+      ? `مرحباً متجر دوما! أود الاستفسار وطلب العرض الخاص للتيشرتات والملابس:\n- العرض: ${bundleName}\n- السعر: ${price}`
       : `Hello Doma Store! I would like to order the promotional bundle:\n- Package: ${bundleName}\n- Price: ${price}`;
     
     window.location.href = `https://wa.me/201144118289?text=${encodeURIComponent(text)}`;
@@ -73,12 +73,12 @@ export default function OffersView({
             <span>{isRtl ? 'عروض لفترة محدودة للغاية' : 'HIGHLY LIMITED PROMOTIONS'}</span>
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-cairo text-neutral-900 tracking-tight">
-            {isRtl ? 'مهرجان عروض أزياء الأولاد' : 'Boys Couture Offers Hub'}
+            {isRtl ? 'مهرجان عروض الملابس والتيشرتات الفاخرة' : 'Premium Menswear Offers Hub'}
           </h2>
           <p className="text-sm text-neutral-500 font-light leading-relaxed">
             {isRtl
-              ? 'احصل على إطلالات العيد والمصيف الفاخرة بأوفر الأسعار من متجر دوما. عروض مصممة لتمنح طفلك البهجة والأناقة دون المساومة على الجودة الممتازة.'
-              : 'Secure festive high-grade ensembles & poolside coordinates at supreme deals. Experience uncompromising craftsmanship at accessible values.'}
+              ? 'احصل على أحدث تيشرتات وبولو صيفية فاخرة بأوفر الأسعار من متجر دوما. عروض مصممة لتمنحك الأناقة والجاذبية دون المساومة على جودة القطن المصري الممتاز.'
+              : 'Secure modern high-grade t-shirts and daily polos at supreme deals. Experience uncompromising craftsmanship and premium Egyptian cotton comfort.'}
           </p>
         </div>
 
@@ -94,12 +94,12 @@ export default function OffersView({
                 {isRtl ? 'عرض فلاش الصيفي اليومي' : 'DAILY SUMMER FLASH SALE'}
               </span>
               <h3 className="text-2xl sm:text-3xl font-bold font-cairo leading-snug">
-                {isRtl ? 'خصومات تصل إلى ٢٠٪ على الأطقم الصيفية الكتان والقطن' : 'Up to 20% Off Natural Linen & Cotton Sets'}
+                {isRtl ? 'خصومات تصل إلى ٢٠٪ على باقات وتيشرتات القطن المصري الفخم' : 'Up to 20% Off Premium Solid & Graphic Tees'}
               </h3>
               <p className="text-sm text-neutral-400 font-light max-w-lg leading-relaxed">
                 {isRtl
-                  ? 'شحن مجاني لكافة طلبات الكوبونات والأحجام الصيفية لليوم فقط بحد أدنى ١٠٠٠ جنيه مصري للطلب في جميع محافظات مصر.'
-                  : 'Free nationwide shipping included on all premium summer apparel. Applies automatically for active baskets over 1000 EGP to any governorate.'}
+                  ? 'شحن مجاني لكافة طلبات الكوبونات وباقات الملابس لليوم فقط بحد أدنى ١٠٠٠ جنيه مصري للطلب في جميع محافظات مصر.'
+                  : 'Free nationwide shipping included on all premium menswear. Applies automatically for active baskets over 1000 EGP to any governorate.'}
               </p>
             </div>
 
@@ -209,12 +209,12 @@ export default function OffersView({
                   <BadgePercent className="w-6 h-6" />
                 </div>
                 <h4 className="text-xl font-bold font-cairo text-neutral-900">
-                  {isRtl ? 'باقة الأطقم الصيفية المزدوجة' : 'Double Outfits Holiday Pack'}
+                  {isRtl ? 'باقة تيشرت التوفير المزدوجة' : 'Double Premium Tees Bundle'}
                 </h4>
                 <p className="text-xs text-neutral-500 font-light leading-relaxed">
                   {isRtl
-                    ? 'اشتري أي طقمين متكاملين من اختيارك للأولاد، واحصل على قميص قطني أساسي ناصع مجاناً تماماً بقيمة ٣٥٠ جنيه مصري لدعم الصيف.'
-                    : 'Purchase any two complete boy sets of your style choice, and obtain a daily classic crew cotton tee completely free (valued at 350 EGP).'}
+                    ? 'اشتري أي قطعتين من اختيارك اليوم، واحصل على تي شيرت قطن سليم فيت ناصع البياض مجاناً تماماً لدعم خزانة ملابسك الصيفية.'
+                    : 'Purchase any two premium items of your style choice, and obtain a daily classic white slim-fit tee completely free (valued at 350 EGP).'}
                 </p>
 
                 <div className="flex items-baseline gap-2 pt-2">
@@ -226,11 +226,11 @@ export default function OffersView({
                 <ul className="space-y-2.5 text-xs text-neutral-600 font-light">
                   <li className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600" />
-                    <span>{isRtl ? 'طقمين اختيار كامل كلاسيكي/كتان/حضري' : '2 Complete selected premium sets'}</span>
+                    <span>{isRtl ? 'تيشرت بولو أو أوفرسايز من اختيارك' : '2 Premium selected tees or polos of choice'}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600" />
-                    <span>{isRtl ? 'تي شيرت قطني مجاني مائة بالمائة' : '1 Free 100% Cotton Supreme Daily Tee'}</span>
+                    <span>{isRtl ? 'تي شيرت قطن سليم فيت مجاني مائة بالمائة' : '1 Free Daily Slim-Fit White Tee'}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600" />
@@ -255,12 +255,12 @@ export default function OffersView({
                   <Sparkles className="w-6 h-6 text-[#C8A96A]" />
                 </div>
                 <h4 className="text-xl font-bold font-cairo text-neutral-900">
-                  {isRtl ? 'عرض العيد الفاخر لرباعية القمصان' : 'Modern Luxury Shirts Combo'}
+                  {isRtl ? 'عرض الرباعية الأساسية الفاخرة للشباب' : 'Elite Pack Quadruple Tees'}
                 </h4>
                 <p className="text-xs text-neutral-500 font-light leading-relaxed">
                   {isRtl
-                    ? 'باقة خاصة تضم ٤ قمصان وتيشرتات قطنية غرافيك ذات جودة عالية باللون الفحمي والذهبي وغيرها لتوفير خيارات غسل وتناوب أسبوعية مريحة للأم.'
-                    : 'A select pack of any 4 signature graphic or daily combed shirts. Ensures seamless daily rotations with durable elegant wear resistance.'}
+                    ? 'باقة خاصة تمنحك ٤ تيشرتات وبولو قطنية فاخرة من اختيارك لتجربة تناوب أسبوعية كاجوال وممتازة تناسب النادي، الجامعة والعمل.'
+                    : 'A select pack of any 4 signature graphic, polo, or daily combed shirts. Ensures absolute variety and luxury wardrobe rotation.'}
                 </p>
 
                 <div className="flex items-baseline gap-2 pt-2">
@@ -272,7 +272,7 @@ export default function OffersView({
                 <ul className="space-y-2.5 text-xs text-neutral-600 font-light">
                   <li className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600" />
-                    <span>{isRtl ? '٤ قمصان وتيشرتات من اختيارك الكامل' : '4 Shirts & Tees of your choice'}</span>
+                    <span>{isRtl ? '٤ تيشرتات وبولو قطنية من اختيارك الكامل' : '4 Premium Shirts & Tees of your choice'}</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600" />
